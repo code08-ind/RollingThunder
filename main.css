@@ -1,0 +1,51 @@
+body{
+	background-color:#F8F8FF;
+}
+nav.navbar{
+	background-color:white;
+}
+header.jumbotron{
+	background-color:rgb(240,230,255);
+	border:5px solid white;
+}
+.thumbnail img{
+	width:100%;
+}
+.thumbnail{
+	padding:0;
+}
+div.thumbnail img.size{
+	height:180px;
+}
+#delete-form{
+	display:inline;
+}
+.delete-form{
+	display:inline;
+}
+div.text-left{
+	margin-top:20px;
+	margin-bottom:-50px;
+	font-weight:bold;
+	font-style:italic;
+}
+nav.navbar div.navbar-header a.navbar-brand,p.lead{
+	font-size:2rem;
+	font-weight:600;
+}
+nav.navbar div.navbar-header a.navbar-brand{
+	color:black;
+}
+nav.navbar li.link a:focus{
+	background-color:#DCDCDC;	
+}
+@media only screen and (min-width:520px) and (max-width:650px){
+	div.thumbnail img.size{
+ 	height:350px;
+ }
+}
+@media only screen and (min-width:651px) and (max-width:993px){
+	div.thumbnail img.size{
+ 	height:450px;
+ }
+}
